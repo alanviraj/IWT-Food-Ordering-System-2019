@@ -1,0 +1,76 @@
+.MenuTable{
+	border:1px solid lightgrey;
+	background-color:black;
+	color:white;
+	border-collapse: collapse;
+	float: left;
+	width:60%;
+	/* padding:15px; */
+	padding: 5px 20px 15px 20px;
+	/* overflow-x:auto;	 */
+	overflow-y :auto; /* scroll */
+	border-radius: 7px;
+	 height : auto; /*adjusts according to content*/
+	
+	
+	
+	
+	 margin-left : 20px; 
+}
+
+.MenuTable tr:hover{
+	background-color: grey;
+	color: black;
+}
+
+.MenuTable th{
+	background-color: #fa6102;
+	color: white;
+	/* padding:8px; */
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	 padding-top: 12px;
+	 padding-left: 55px;
+	 padding-right: 35px;
+	 padding-bottom: 12px;
+	 text-align: center;
+    
+}
+
+.MenuTable tr{
+	color: white;
+	text-align:center;
+	
+}
+
+.MenuTable button{
+	padding: 5px;
+	border: none;
+	border-radius:3px;
+
+}
+
+.MenuTable input[type=button]{
+	padding: 5px;
+	/* background-color:#555555;; */
+	border: none;
+	border-radius:3px;
+	
+}
+
+.MenuTable input[type=button]:hover{
+	background-color: #fa6102;
+}
+
+.MenuTable a {
+	text-decoration:none;
+	color:white;
+}
+
+.MenuTable a:hover{
+	color:white;	
+}
+
+.MenuTable button:hover{
+	background-color: #fa6102;	
+	
+}

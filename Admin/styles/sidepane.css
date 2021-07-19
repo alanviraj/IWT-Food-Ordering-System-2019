@@ -1,0 +1,35 @@
+@import url("ADMINSTYLES.CSS");
+
+.sidepane {
+  height: 100%;
+  width: 13%;
+  position: static;
+  top: 0;
+  left: 0;
+  background-color:#121211;
+  /* overflow-x: hidden; */
+  padding-top: 20px;
+  float : left ;
+  /* display:block; */
+  color: white;
+  border-right : groove 3px #181818;  */ */
+}
+
+.sidepane a {
+  padding: 3px 2px 8px 5px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  cursor:pointer;
+}
+
+.sidepane a:hover {
+  color: #fa6102;
+}
+
+@media screen and (max-height: 450px) {
+  .sidepane {padding-top: 15px;}
+  .sidepane a {font-size: 18px;}
+}
+

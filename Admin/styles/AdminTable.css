@@ -1,0 +1,56 @@
+.AdminTable{
+	border:1px solid white;
+	background-color:black;
+	color:white;
+	border-collapse: collapse;
+	width:80%;
+	padding:15px;
+	overflow-x:auto;	
+}
+
+.AdminTable tr:hover{
+	background-color: grey;
+	color: black;
+}
+
+.AdminTable th{
+	background-color: #fa6102;
+	color: white;
+	padding:8px;
+}
+
+.AdminTable tr{
+	color: white;
+	text-align:center;
+	
+}
+
+.AdminTable button{
+	padding: 5px;
+	/* background-color:#555555;; */
+	border: none;
+	border-radius:3px;
+
+}
+
+.AdminTable input[type=button]{
+	padding: 5px;
+	/* background-color:#555555;; */
+	border: none;
+	border-radius:3px;
+	
+}
+
+.AdminTable input[type=button]:hover{
+	background-color: #fa6102;
+}
+
+.AdminTable a {
+	text-decoration:none;
+	color:black;
+}
+
+.AdminTable button:hover{
+	background-color: #fa6102;
+	
+}

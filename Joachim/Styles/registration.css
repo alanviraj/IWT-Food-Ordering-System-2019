@@ -1,0 +1,384 @@
+.headerBack{
+    width:100%;
+    height:auto;
+    background-color: black;
+    color: white;
+}
+
+.headerTop{}
+
+.headerLogo{
+    width: 70%;
+    height:auto;
+    float:inherit;
+    display: inline-block;
+}
+.headerLogo p{
+    font-weight: bold;
+    font-size: 170%;
+    margin-left: 58%;
+    margin-top: 0;
+    
+}
+
+.headerLogo img{
+    width:20%;
+    height:auto;
+    margin-left: 58%;
+    display: inline-block;
+}
+
+.signupLogin{
+    width:29%;
+    height: auto;
+    float:right;
+    display: inline-block;
+}
+
+.userImage{
+    width:50%;
+    float:left;
+    display: inline-block;
+    
+}
+
+.buttonSection{
+    width:50%;
+    float: right;
+    
+}
+
+.signupLogin img{
+    width: 40%;
+    margin-top: 19%;
+    margin-left: 53%;
+    height: auto;
+    display: inline-block;
+}
+
+.headerButton{
+    margin-top: 31%;
+    border-radius: 3px;
+	padding: 5px;
+	color: black;
+	border: none;
+	background-color: white;
+	text-align: center;
+	width:60%;
+    height: 5%;
+	font-size:80%;
+    font-weight: bold;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.headerButton:hover{
+    background-color: #fa6102;
+}
+
+.headerButton i{
+    width:20%;
+    height: auto;
+}
+
+
+
+.headerBottom{}
+
+
+.headerBottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.headerBottom li {
+    float: left;
+    width: 12%;
+    height: 7%;
+}
+
+.headerBottom li a {
+    font-size: 100%;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.headerBottom li a:hover:not(.active) {
+    background-color: #fa6102;
+}
+
+.active {
+    background-color: #fa6102;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+}
+* {
+  box-sizing: border-box;
+}
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius:5px;
+  background: #f1f1f1;
+}
+#in{
+	margin-right:522px;
+	color:white;
+}
+#in1{
+	margin-right:492px;
+	color:white;
+}
+#in2{
+	margin-right:552px;
+	color:white;
+}
+#in3{
+	margin-right:534px;
+	color:white;
+}
+#in4{
+	margin-right:464px;
+	color:white;
+}
+#in5{
+	color:white;
+}
+h1{
+	color:white;
+}
+h2{
+	color:white;
+	font-family:Cursive;
+	font-size:36px;
+	margin-bottom:50px;
+}
+h3{
+	color:#1c4e7a;
+	font-size:20px;
+	font-family:Times New Roman;
+}
+
+hr{
+border-top:1px solid red;
+}
+
+.form{
+	font-family:Times New Roman;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	font-size:10px;
+}
+/*.tableR{
+	font-size:18px;
+	color:#403c30;
+}
+.tableR2{
+	font-size:19px;
+	color:#e63e3e;
+}
+.tableR3{
+	color:red;
+}*/
+.chkb{
+	color:black;
+	
+}
+#btnregister {
+  background-color: #2c9e21;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  width: 26%;
+  opacity: 0.9;
+  font-size: 14px;
+  
+  margin-right:0px;
+}
+
+#btnregister:hover {
+  opacity: 1;
+  
+}
+
+div.para1{
+   clear:right;
+   font-size:23px;
+   color:white;
+}
+
+.containerR {
+  position: relative;
+  border-radius: 35px;
+  background-color:black;
+  padding: 40px 50px 20px 50px;
+  margin:0px 400px  0px 400px;
+  
+} 
+
+footer{
+    position:static;
+    margin-top:54%; 
+}
+
+.pageFooter{
+	margin-top:auto;
+    width: 100%;
+    height: auto;   
+    display: block;
+    background-color: black;
+    position: static;
+}
+
+.firstQuarter{
+    width:24%;
+    height:
+    float:left;
+    display: inline-block;
+    color:white;
+        
+}
+
+.firstQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 100%;
+    padding-top: 0;
+}
+
+.firstQuarter address{
+    padding-left: 20%;
+    font-size: 90%;
+    text-align: justify-all;
+}
+
+.firstQuarter ul{
+    list-style-type: none;
+    padding-top: 5%;
+    padding-left: 25%;
+}
+
+.secondQuarter{
+    margin-top: 0;
+    width:24%;
+    height:auto;
+    float:right;
+    display: inline-block;
+    color:white;
+    
+}
+
+.secondQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 120%;
+} 
+
+.secondQuarter ul {
+    list-style-type: none;
+    padding-left: 25%;
+}
+
+.secondQuarter ul li {
+    font-size: 100%;
+    font-weight: bold;
+	font-style : Helivetica;
+}
+
+
+.thirdQuarter{
+    height: auto;
+    width:24%;
+    float:right;
+    display: inline-block;
+    color:white;
+    
+}
+
+.thirdQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 120%;
+}
+
+.thirdQuarter p{
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 15%;
+    
+}
+
+.fourthQuarter{
+    height:auto;
+    width:24%;
+    float:right;
+    display: inline-block;
+    color:white;
+}
+
+.fourthQuarter form{
+    width:100%;
+    height: auto
+}
+
+.fourthQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 100%;
+} 
+
+.fourthQuarter input[type=text], select {
+    width: 80%;
+    margin-left: 15%;
+    padding: 6px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.footerSubmit{
+    margin-left: 23%;
+    margin-top: 5%;
+    border-radius: 3px;
+	padding: 5px;
+	color: black;
+	border: none;
+	background-color: white;
+	text-align: center;
+	width:30%;
+    height: 5%;
+	font-size:105%;
+    font-weight: bold;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.footerSubmit:hover{
+    background-color: #fa6102;
+}
+
+.footerSubmit i{
+    width:20%;
+    height: auto;
+}

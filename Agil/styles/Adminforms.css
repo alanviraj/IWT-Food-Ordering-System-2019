@@ -1,0 +1,60 @@
+.Adminform{
+	width:50%;
+	background-color:black;
+	padding: 20px 20px;
+}
+
+.Adminform label{
+	float:center;
+	padding:12px 20px;
+	font-size:17px;
+	color: white;
+}
+
+.Adminform input[type=button],.Adminform input[type=submit]{
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	cursor: pointer;
+	width:100%;
+	opacity:1;
+}
+
+.Adminform input[type=button]:hover, .Adminform input[type=submit]:hover{
+	opacity:0.75;
+}
+
+.Adminform input[type=text] {
+	float:right;
+	width:80%;
+	color: black;
+	border-radius:5px;
+	
+
+}
+
+.Adminform select{
+	float:right;
+}
+
+.Adminform input[type=text]:hover {
+  border: 3px solid #fa6102;
+}
+
+.Adminform textarea{
+	float:right;
+	width:80%;
+	height:80px;
+	color: black;
+	border-radius:5px;
+}
+
+.Adminform textarea:hover {
+  border: 3px solid #fa6102;
+}
+
+.Adminform input[type=file]{
+	color:white;
+}

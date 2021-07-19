@@ -1,0 +1,169 @@
+.Adminbody{
+	background-color:grey;
+}
+
+.adminImage:hover{
+	opacity:0.75;
+}
+
+.TABLE1{
+	width:24%;
+    height:
+    float:right;
+    display: inline-block;
+	background-color:black;
+    color:white;
+	border:1px solid white;
+	padding:5px 5px;
+	text-align:;
+}
+
+.TABLE1 img{
+	width:20%;
+	height:20%;
+}
+
+
+.TABLE1 img:hover{
+	opacity:0.75;
+}
+
+
+.TABLE1 a{
+	cursor:pointer;
+	text-decoration:none;
+	color:white;
+}
+
+.TABLE1 a:hover{
+	color:#fa6102;
+}
+
+.TABLE2{
+	width:24%;
+    height:
+    float:center;
+    display: inline-block;
+	background-color:black;
+    color:white;
+	border:1px solid white;
+	padding:5px 5px;
+}
+
+.TABLE2 img{
+	width:20%;
+	height:20%;
+}
+
+.TABLE2 img:hover{
+	opacity:0.75;
+}
+
+
+.TABLE2 a{
+	cursor:pointer;
+	text-decoration:none;
+	color:white;
+}
+
+.TABLE2 a:hover{
+	color:#fa6102;
+}
+
+.TABLE3{
+	width:24%;
+    height:
+    float:left;
+    display: inline-block;
+	background-color:black;
+    color:white;
+	border:1px solid white;
+	padding:5px 5px;
+	
+}
+
+.TABLE3 img{
+	width:20%;
+	height:20%;
+	
+}
+
+.TABLE3 img:hover{
+	opacity:0.75;
+}
+
+
+.TABLE3 a{
+	cursor:pointer;
+	text-decoration:none;
+	color:white;
+}
+
+.TABLE3 a:hover{
+	color:#fa6102;
+}
+
+.cardL{
+	float:left;
+	height:;
+	width:20%;
+	color:white;
+	background-color:black;
+	display:inline-block;
+	padding:5px 5px;
+	border:1px solid white;
+	text-align: center;
+}
+
+.cardC{
+	float:center;
+	height:;
+	width:20%;
+	color:white;
+	background-color:black;
+	display:inline-block;
+	padding:5px 5px;
+	border:1px solid white;
+}
+
+.cardR{
+	float:right;
+	height:;
+	width:20%;
+	color:white;
+	background-color:black;
+	display:inline-block;
+	padding:5px 5px;
+	border:1px solid white;
+}
+
+.Table{
+	border:1px solid white;
+	background-color:black;
+	color:white;
+	border-collapse: collapse;
+	width:80%;
+	padding:15px;
+	overflow-x:auto;
+	
+	
+}
+
+.Table tr:hover{
+	background-color: grey;
+	color: black;
+}
+
+.Table th{
+	background-color: #fa6102;
+	color: white;
+}
+
+.Table button:hover{
+	background-color: #fa6102;
+	
+}
+
+h3{
+	color:#fa6102;
+}

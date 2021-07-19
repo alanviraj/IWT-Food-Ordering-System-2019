@@ -1,0 +1,131 @@
+body{
+	background-color : gray;
+}
+h2{
+	color:white;
+	font-family:Cursive;
+	font-size:36px;
+	margin-bottom:50px;
+}
+h3 {
+	color:white;
+	text-shadow: 2px 2px 3px  red;
+}
+#container{
+	
+	width : 50%;
+	height : auto;
+	background-color : black;
+	color : white;
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	border-radius : 5px;
+	font-size: 120%;
+	padding-bottom : 0.5%;
+}
+
+.columnL {
+  
+  padding: 5px;
+  margin-right:3%;
+  margin-left:0.5%;
+  font-style : Helivetica;
+  font-size:120%;
+  padding-left : 2%;
+  /* Should be removed. Only for demonstration */
+}
+
+#para{
+	color : white;
+	font-size :100%;
+	font-style : Helivetica;
+}
+
+input[type=text]
+	{
+		width : 45%;
+		margin-bottom : 20px;
+		padding : 10px;
+		border : 1px solid #ccc;
+		border-radius : 3px;
+	}
+#in{
+	margin-right:210px;
+	color:white;
+}
+#in1{
+	margin-right:240px;
+	color:white;
+}
+#mn {
+
+	font-family : Helivetica;
+	
+}
+
+#password{
+
+	font-family : Helivetica;
+	width : 45%;
+	margin-bottom : 20px;
+	padding : 10px;
+	border : 1px solid #ccc;
+	border-radius : 3px;
+}
+
+.chkbl {
+	margin-right:80px;
+}
+
+#sub {
+  background-color:#03ab30;
+  color: white;
+  font-size:18px;
+  cursor: pointer;
+  margin-left:0px;
+  width : 45%;
+  height : 5%;
+ 
+  margin-bottom : 20px;
+  padding : 10px;
+  border : 1px solid #ccc;
+  border-radius : 3px;
+  
+}
+
+#sub:hover {
+  background-color: green;
+}
+
+#NR{
+	margin-right:340px;
+}
+#btnNR{
+  background-color:#03ab30;
+  color: white;
+  font-size:18px;
+  cursor: pointer;
+  margin-left:205px;
+  width : 45%;
+  height : 5%;
+
+  margin-bottom : 20px;
+  padding : 10px;
+  border : 1px solid #ccc;
+  border-radius : 3px;
+}
+#btnNR:hover {
+	background-color:green;
+}
+
+#FYPL{
+	font-size:100%;
+	margin-left:20px;
+	color:white;
+	text-decoration : none;
+}
+
+
+
+

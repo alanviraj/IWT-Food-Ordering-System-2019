@@ -1,0 +1,259 @@
+#scope{
+	width : 80%;
+	height : auto;
+	float: right;
+}
+
+#promoContainer{
+	border-radius : 1%;
+	border-style : solid;
+	border-color : #fa6102;
+	margin-left : 0.5%;
+	float : left;
+	width : 35%;
+	height : auto;
+	background-color : black;
+	color : white;
+	padding-top : 0.5%;
+	padding-left : 2%;
+	padding-right : 2%;
+	padding-bottom : 2%;
+}
+
+#coupon{
+	font-weight : bold;
+	text-align :center;
+}
+
+#coupon:hover{
+	color : #fa6102;
+}
+
+.changeButton{
+	background-color: white;
+	height : 30px;
+	border-radius : 4px;
+	border-color : grey;
+	
+}
+
+.changeButton:hover{
+	background-color : #fa6102;
+}
+
+#promo2{
+	float : right;
+	width : 60%;
+	height : auto;
+	margin-left : 0.5%;
+}
+
+.promo3{
+	background-color : black;
+	margin-left: 2%;
+	width : 50%;
+	height : auto;
+	color  : white;
+	padding-top : 0.5%;
+	padding-left : 2%;
+	padding-right : 2%;
+	padding-bottom : 1%;
+	border-radius : 2%;
+	font-family : Charcoal, sans-serif;
+}
+
+.promoPic{
+	width : 40%;
+	height  : 10%;
+	display : block;
+	margin-left: auto;
+	margin-right : auto;
+	border-radius : 8px;
+	transition : transform .2s;
+}
+
+.promoPic:hover {
+  
+  transform: scale(1.5);
+}
+
+
+
+.btn{
+	display : block;
+	margin-left: auto;
+	margin-right : auto;
+    margin-bottom: 1%;
+	margin-top : 1.5%;
+    border-radius: 3px;
+	padding:2%;
+	color: black;
+	border-color : grey;
+	background-color: white;
+	text-align: center;
+	width: 50%;
+    height: auto%;
+	font-size:90%;
+	font-family: Times New Roman;
+    position: static;
+}
+
+.btn:hover{
+	background-color: #fa6102 ;
+}
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    position:static;
+    margin-top:80%; 
+}
+
+.pageFooter{
+	margin-top:auto;
+    width: 100%;
+    height: auto;   
+    display: block;
+    background-color: black;
+    position: static;
+}
+
+.firstQuarter{
+    width:24%;
+    height:
+    float:left;
+    display: inline-block;
+    color:white;
+        
+}
+
+.firstQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 100%;
+    padding-top: 0;
+}
+
+.firstQuarter address{
+    padding-left: 20%;
+    font-size: 90%;
+    text-align: justify-all;
+}
+
+.firstQuarter ul{
+    list-style-type: none;
+    padding-top: 5%;
+    padding-left: 25%;
+}
+
+.secondQuarter{
+    margin-top: 0;
+    width:24%;
+    height:auto;
+    float:right;
+    display: inline-block;
+    color:white;
+    
+}
+
+.secondQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 120%;
+} 
+
+.secondQuarter ul {
+    list-style-type: none;
+    padding-left: 25%;
+}
+
+.secondQuarter ul li {
+    font-size: 100%;
+    font-weight: bold;
+	font-style : Helivetica;
+}
+
+
+.thirdQuarter{
+    height: auto;
+    width:24%;
+    float:right;
+    display: inline-block;
+    color:white;
+    
+}
+
+.thirdQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 120%;
+}
+
+.thirdQuarter p{
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 15%;
+    
+}
+
+.fourthQuarter{
+    height:auto;
+    width:24%;
+    float:right;
+    display: inline-block;
+    color:white;
+}
+
+.fourthQuarter form{
+    width:100%;
+    height: auto
+}
+
+.fourthQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 100%;
+} 
+
+.fourthQuarter input[type=text], select {
+    width: 80%;
+    margin-left: 15%;
+    padding: 6px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.footerSubmit{
+    margin-left: 23%;
+    margin-top: 5%;
+    border-radius: 3px;
+	padding: 5px;
+	color: black;
+	border: none;
+	background-color: white;
+	text-align: center;
+	width:30%;
+    height: 5%;
+	font-size:105%;
+    font-weight: bold;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.footerSubmit:hover{
+    background-color: #fa6102;
+}
+
+.footerSubmit i{
+    width:20%;
+    height: auto;
+}

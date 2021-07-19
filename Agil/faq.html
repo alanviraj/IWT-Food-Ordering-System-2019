@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title> Home </title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel = "stylesheet" href ="styles/aaa.css" >
+		<script src="js/jscript.js"></script>
+	
+	</head>
+	<body>
+        <div class="headerBack">
+            <div>
+                <div class="headerLogo">
+                    <img src="images/logo.png">
+                    <p>Westeros Foods</p>
+                </div>
+
+                <div class="signupLogin">
+                    <div class="userImage">
+                        <a href="../Joachim/userprofiles.php" ><img src="images/user.png"></a>
+                    </div>
+                    <div class="buttonSection">
+						<form method="post" action="logout.php"> 
+							<input name="logout" class="headerButton" type="submit" value="Log out"/>
+						</form> 
+					</div>
+                </div>
+            </div>
+            
+            <div class="headerBottom">
+                <ul>
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="../Shahdy/myfinal/mm.php">Our Menu</a></li>
+                    <li><a href="#">Why Westeros</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li style="float:right"><a href="../Shahdy/myfinal/promo.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Promotions</a></li>
+                </ul>
+            </div>
+        </div>
+		<style>
+			.Faq{
+				background-color:black;
+				color:#fa6102;
+				cursor:pointer;
+				padding:18px;
+				width:75%;
+				border:none;
+				text-align:left;
+				outline:none;
+				font-size:18px;
+			}
+
+			.active, .Faq:hover{
+				background-color:#555;
+			}
+
+			.content{
+				padding: 0 18px;
+				display:none;
+				overflow:hidden;
+				width:72%;
+				text-align:left;
+				color:white;
+				background-color:#777;
+				font-size:17px;
+			}
+		</style>
+		
+		<center>	
+				<h1 style="color:#fa6102;font-size:40px;">FAQS</h1>
+				
+				<button type="button" class="Faq" >What is your service charge policy?</button>
+				<div class="content">
+				<p>Any optional service charge that you leave is a direct reward for the staff who made your experience special. 
+				We therefore ensure that all service charge goes to the staff in the restaurant where it was given. 
+				It is entirely your choice whether to pay the service charge. Please ask if you wish it to be removed.</p>
+				</div>
+				
+				<button type="button" class="Faq">Do you cater for children at Westeros? </button>
+				<div class="content">
+				<p>We are pleased to welcome children in all of our restaurants, and offer an Enfants menu which can be viewed here. 
+				All of our restaurants provide highchairs, and most will also have baby changing facilities.</p>
+				</div>
+				
+				<button type="button" class="Faq">Are dogs allowed in the restaurant? </button>
+				<div class="content">
+				<p>As much as we would love to welcome all dogs into our restaurants unfortunately only guide and assistance dogs are allowed. 
+				If the restaurant you are visiting has an outside area you are welcome to sit with your dog there.</p>
+				</div>
+				
+				<button type="button" class="Faq">I am having problems booking an offer, that I have received on email. </button>
+				<div class="content">
+				<p>Sometimes security settings can prevent the browser from accessing the final page of the reservations process. 
+				Try accessing the email on a different device or browser, perhaps try on a smartphone or a different computer if you have one. 
+				If you are still not able to book you can forward the email and your desired booking details to the restaurant you would like to book and they can complete this for you.</p>
+				</div>
+			
+				<button type="button" class="Faq">Do you provide offers or loyalty schemes? </button>
+				<div class="content">
+				<p>By signing up to our Westeros newsletters, you will receive updates of our seasonal menus and offers. 
+				If you have a question on an offer you have been sent from Westeros, please fill feedback form  and we shall endeavour to get back to you in 48 working hours.</p>
+				</div>
+				
+				<button type="button" class="Faq">What sort of food is served at Westeros? </button>
+				<div class="content">
+				<p>Our menu is either a 12 course or a 6 course tasting menu. 
+				The ingredients we use are sourced from the surrounding farms and gardens. 
+				Some of the courses will be small bites,others will be larger dishes. All will be cooked with Sri Lankan precision and techniques</p>
+				</div>
+				
+				<button type="button" class="Faq">Do you cater for special dietary requirements?</button>
+				<div class="content">
+				<p>If you advise us in advance of your visit we will always do our best to accomodate your specific dietary requirements. 
+				As far as allergies are concerned It is important to know that we do use nuts, gluten and other allergens in our kitchen so while we can ensure your dishes are free of these ingredients it is essential that you know that these ingredients are still used on the premises. 
+				If you need to inform us of any requirements, just give the restaurant a call on (+94) 081-2222225 before your visit to let us know.</p>
+				</div>
+				
+				<button type="button" class="Faq">Is there parking available?</button>
+				<div class="content">
+				<p>Yes, we have a spacious car park so getting parked should be very straightforward.</p>
+				</div>
+			</center>	<br>
+				
+			<script>
+				var coll = document.getElementsByClassName("Faq");
+				var i;
+
+				for(i=0 ; i < coll.length;i++)
+				{
+					coll[i].addEventListener("click",function(){
+						this.classList.toggle("active");
+						var content = this.nextElementSibling;
+						if(content.style.display==="block"){
+							content.style.display="none";
+						}else{
+							content.style.display="block";
+						}
+						});
+				}	
+
+			</script>
+			
+			<footer>
+			<div class="pageFooter">
+				<div class="firstQuarter">
+					<h6 style="margin-left:-110px">Locater</h6>
+					<address>
+						Westros Foods<br><br>
+						No-1/1, Peradeniya Road,<br><br>
+						Kandy,<br><br>
+						Zip-Code : 20000
+					</address>
+					<ul style="margin-left:-20px">
+						<li><span class="fa fa-phone"></span> +94 (081) 123 4567</li><br>
+						<li><span class="fa fa-envelope-o"></span> westros@gmail.com </li>
+					</ul>
+				</div>
+				
+				<div class="secondQuarter">
+					<h6 style="margin-left:-60px">Quick Links</h6>
+					<ul>
+						<li><a href="home.html">Home</a></li><br>
+						<li><a href="#">Our Menu</a></li><br>
+						<li><a href="#">Why Westeros</a></li><br>
+						<li><a href="#">Contact Us</a></li><br>
+						<li><a href="#">Cart</a></li><br>
+						<li><a href="faq.html">FAQS</a></li><br>
+					</ul>
+					
+				</div>
+				
+				<div class="thirdQuarter">
+					<h6>About Us</h6>
+					<p>Westeros, a subsidiary of Yum! Brands, is a new home of food established on 2.03.2018. Since its inception Westeros has fast become a household name across Sri Lanka with its first restaurant at Union Place, Colombo 2.</p>
+					
+				</div>
+				
+				<div class="fourthQuarter">
+				<h6 style="margin-left:-60px">Grab Our Newsletter</h6>
+					<form name= "emailValidate" method="post" action="newsletter.php">
+							<input type="text" name="uName" placeholder="Name"><br>
+							<input type="text" name="uEmail" placeholder="Email"><br>
+							<input type="submit" value="Submit" class="footerSubmit" onclick="validateForm(document.emailValidate.uEmail)">
+					</form>
+				</div>
+			</div>
+			</footer>
+		</body>	
+		</html>

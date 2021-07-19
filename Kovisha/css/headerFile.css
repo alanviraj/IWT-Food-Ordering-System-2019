@@ -1,0 +1,118 @@
+.headerBack{
+    width:100%;
+    height:auto;
+    background-color: black;
+    color: white;
+}
+
+.headerTop{}
+
+.headerLogo{
+    width: 70%;
+    height:auto;
+    float:inherit;
+    display: inline-block;
+}
+.headerLogo p{
+    font-weight: bold;
+    font-size: 170%;
+    margin-left: 37%;
+    margin-top: 0;
+    
+}
+
+.headerLogo img{
+    width:20%;
+    height:auto;
+    margin-left: 58%;
+    display: inline-block;
+}
+
+.signupLogin{
+    width:29%;
+    height: auto;
+    float:right;
+    display: inline-block;
+}
+
+.userImage{
+    width:50%;
+    float:left;
+    display: inline-block;
+    
+}
+
+.buttonSection{
+    width:50%;
+    float: right;
+    
+}
+
+.signupLogin img{
+    width: 40%;
+    margin-top: 19%;
+    margin-left: 53%;
+    height: auto;
+    display: inline-block;
+}
+
+.headerButton{
+    margin-top: 31%;
+    border-radius: 3px;
+	padding: 5px;
+	color: black;
+	border: none;
+	background-color: white;
+	text-align: center;
+	width:60%;
+    height: 5%;
+	font-size:80%;
+    font-weight: bold;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.headerButton:hover{
+    background-color: #fa6102;
+}
+
+.headerButton i{
+    width:20%;
+    height: auto;
+}
+
+
+
+.headerBottom{}
+
+
+.headerBottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.headerBottom li {
+    float: left;
+    width: 12%;
+    height: 7%;
+}
+
+.headerBottom li a {
+    font-size: 100%;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.headerBottom li a:hover:not(.active) {
+    background-color: #fa6102;
+}
+
+.active {
+    background-color: #fa6102;
+}

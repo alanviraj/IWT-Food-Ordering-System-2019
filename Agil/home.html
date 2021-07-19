@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title> Home </title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel = "stylesheet" href ="styles/aaa.css" >
+        <link rel = "stylesheet" href ="styles/home.css" >
+		<script src="js/jscript.js"></script>
+	
+	</head>
+	<body>
+        <div class="headerBack">
+            <div>
+                <div class="headerLogo">
+                    <img src="images/logo.png">
+                    <p>Westeros Foods</p>
+                </div>
+
+                <div class="signupLogin">
+                    <div class="userImage">
+                        <a href="../Joachim/userprofiles.php"><img src="images/user.png"></a>
+                    </div>
+                    <div class="buttonSection">
+                        <form method="post" action="logout.php"> 
+							<input name="logout" class="headerButton" type="submit" value="Log out"/>
+						</form> 
+					</div>
+                </div>
+            </div>
+            
+            <div class="headerBottom">
+                <ul>
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="../Shahdy/myfinal/mm.php">Our Menu</a></li>
+                    <li><a href="../Shahdy/myfinal/aboutus.html">Why Westeros</a></li>
+                    <li><a href="../Kovisha/src/feed.php">Contact Us</a></li>
+                    <li style="float:right"><a href="../Shahdy/myfinal/promo.php"> Promotions</a></li>
+                </ul>
+            </div>
+        </div>
+		
+		
+			<div class="cont">
+				<img src="images/cover.jpg" id="main" >	
+				<div class="imghead">
+					<center><div id="wel">Welcome to </div><br> <div id="west">WESTEROS FOODS</div></center>
+				</div>	
+				<div class="txtcent" style="font-family:Comic Sans MS;color:#b3b3b3">Are you hungry? <br>Don't wait !!! <br>Let start to order food now!<br><br>
+					<a href="../Shahdy/myfinal/mm.php" ><button type="button" id="ord"onclick="category()" style="font-family:Georgia">Order Now!!!</button></a>
+				</div>	
+			</div><br/><br/>
+		<center>
+			
+			<h3>PROMOS</h3><br/>
+			<div>
+				<div class="card">
+					<img src="images/bev.jpg" class="homeimg" >
+					<div class="container">
+						<label style="font-family:Georgia;color:white">The bubbleology</label><br/>
+						
+						<p id="demo1" style="font-family:Comic Sans MS;color:white"></p>
+					</div>
+				</div>
+				
+				<div class="card">
+					<img src="images/p3.jpg" class="homeimg" >
+					<div class="container">
+						<label style="font-family:Georgia;color:white">Hit the 50</label><br/>
+						
+						<p id="demo2" style="font-family:Comic Sans MS;color:white"></p>
+					</div>
+				</div>
+				
+				<div class="card">
+					<img src="images/p4.jpg" class="homeimg" >
+					<div class="container">
+						<label style="font-family:Georgia;color:white">Ice & Fire</label><br/>
+						
+						<p id="demo3" style="font-family:Comic Sans MS;color:white"></p>
+					</div>
+				</div>
+				
+				<div class="card">
+					<img src="images/p2.jpg" class="homeimg" >
+					<div class="container">
+						<label style="font-family:Georgia;color:white;color:white">Free Dine In</label><br/>
+						
+						<p id="demo4" style="font-family:Comic Sans MS;color:white"></p>
+					</div>
+				</div>
+				
+			</div><br><br>
+		</center>
+		
+		
+			<footer>
+			<div class="pageFooter">
+				<div class="firstQuarter">
+					<h6>Locater</h6>
+					<address>
+						Westeros Foods<br><br>
+						No-1/1, Peradeniya Road,<br><br>
+						Kandy,<br><br>
+						Zip-Code : 20000
+					</address>
+					<ul style="margin-left:-20px">
+						<li><span class="fa fa-phone"></span>+94 (081) 123 4567</li><br>
+						<li><span class="fa fa-envelope-o"></span> westeros@gmail.com </li>
+					</ul>
+				</div>
+				
+				<div class="secondQuarter">
+					<h6>Quick Links</h6>
+					<ul>
+						<li><a href="home.html">Home</a></li><br>
+						<li><a href="#">Our Menu</a></li><br>
+						<li><a href="#">Why Westeros</a></li><br>
+						<li><a href="#">Contact Us</a></li><br>
+						<li><a href="#">Cart</a></li><br>
+						<li><a href="faq.html">FAQS</a></li><br>
+					</ul>
+					
+				</div>
+				
+				<div class="thirdQuarter">
+					<h6>About Us</h6>
+					<p>Westeros, a subsidiary of Yum! Brands, is a new home of food established on 2.03.2018. Since its inception Westeros has fast become a household name across Sri Lanka with its first restaurant at Union Place, Colombo 2.</p>
+					
+				</div>
+				
+				<div class="fourthQuarter">
+				<h6>Grab Our Newsletter</h6>
+					<form name= "emailValidate" method="post" action="newsletter.php">
+							<input type="text" name="uName" placeholder="Name"><br>
+							<input type="text" name="uEmail" placeholder="Email"><br>
+							<input type="submit" value="Submit" class="footerSubmit" onclick="validateForm(document.emailValidate.uEmail)">
+					</form>
+				</div>
+			</div>
+			</footer>
+		</body>	
+		</html>

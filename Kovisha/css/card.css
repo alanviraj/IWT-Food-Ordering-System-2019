@@ -1,0 +1,150 @@
+body {
+	padding:2px;
+	font-family: Arial;
+}
+
+.card { 
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+	background-color:black;
+}
+
+.price {
+	color: grey;
+	font-size: 22px;
+}
+
+.card button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+.card button:hover {
+	opacity: 0.7;
+}
+
+.card input[type=text]{
+	float:center;
+	width:10%;
+	border-radius:2px;
+	border:none;
+	text-align:center;
+}
+
+.card input[type=submit]{
+	background-color: #fa6102;
+	border: none;
+	color: white;
+	padding:5px 5px;
+	text-decoration: none;
+	cursor: pointer;
+	opacity:1;
+	border-radius:2px;
+}
+
+.card input[type=submit]:hover{
+	opacity:0.75;
+}
+
+/* -------------------------------------------cards-> overlay----------------------------------------------------------------------- */
+
+
+.OLYcontainer {
+  position: relative;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.OLYimage {
+  display: block;
+  width: 100%;
+  height: 30%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fa6102;
+  overflow: hidden;
+  width:100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.OLYcontainer:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.OLYtext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+/* -------------------------------------------cards-> next to next----------------------------------------------------------------------- */
+
+/* * { */
+	/* box-sizing: border-box; */
+/* } */
+
+
+/* Center website */
+/* .Main { */
+	/* max-width: 1000px; */
+	/* margin: auto; */
+/* } */
+
+/* .CardRow { */
+	/* margin: 10px -16px; */
+/* } */
+
+/* Add padding BETWEEN each column */
+/* .CardRow, */
+/* .CardRow > .CardColumn { */
+	/* padding: 8px; */
+/* } */
+
+/* Create three equal columns that floats next to each other */
+/* .CardColumn { */
+	/* float: left; */
+	/* width: 21%; */
+	/* display: none; /* Hide all elements by default */ */
+/* } */
+
+/* /* Clear floats after rows */  */
+/* .CardRow:after { */
+	/* content: ""; */
+	/* display: table; */
+	/* clear: both; */
+/* } */
+
+/* Content */
+/* .CardContent { */
+	/* background-color: white; */
+	/* padding: 10px; */
+/* } */

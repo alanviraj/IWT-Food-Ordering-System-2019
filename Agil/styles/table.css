@@ -1,0 +1,55 @@
+.ordHisTable{
+	border:1px solid white;
+	background-color:black;
+	color:white;
+	border-collapse: collapse;
+	width:80%;
+	padding:15px;
+	overflow-x:auto;	
+}
+
+.ordHisTable tr:hover{
+	background-color: grey;
+	color: black;
+}
+
+.ordHisTable th{
+	background-color: #fa6102;
+	color: white;
+	padding:8px;
+}
+
+.ordHisTable tr{
+	color: white;
+	text-align:center;
+}
+
+.ordHisTable button{
+	padding: 5px;
+	/* background-color:#555555;; */
+	border: none;
+	border-radius:3px;
+
+}
+
+.ordHisTable input[type=button]{
+	padding: 5px;
+	/* background-color:#555555;; */
+	border: none;
+	border-radius:3px;
+	
+}
+
+.ordHisTable input[type=button]:hover{
+	background-color: #fa6102;
+}
+
+.ordHisTable a {
+	text-decoration:none;
+	color:black;
+}
+
+.ordHisTable button:hover{
+	background-color: #fa6102;
+	
+}

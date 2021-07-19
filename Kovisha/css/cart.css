@@ -1,0 +1,236 @@
+
+
+.containerl{
+	 background-color: black;
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 7px;
+	width : 55%;
+	float : left ;
+	 overflow-y :auto; /* scroll */
+	 height : auto; /*adjusts according to content*/
+	 margin-left : 20px;
+}
+
+#customer th{
+	 padding-top: 12px;
+	 padding-left: 55px;
+	 padding-right: 35px;
+	 padding-bottom: 12px;
+	 text-align: center;
+     background-color: #fa6102;
+     color: white;
+     font-family:"Trebuchet MS", Helvetica, sans-serif;
+ 
+	
+}
+
+#customer tr{
+	 /* padding-top: 12px; */
+	 /* padding-left: 55px; */
+	 /* padding-right: 35px; */
+	 /* padding-bottom: 12px; */
+	 text-align: center;
+     /* background-color: #fa6102; */
+     color: white;
+     font-family:"Trebuchet MS", Helvetica, sans-serif;
+ 
+	
+}
+
+
+
+
+
+.final_balance{
+	
+	float : left;
+	position : relative ;
+	 margin-left :500px; 
+	/* margin-right : 30%; */
+	margin-top :-220px;
+	/* margin-bottom : -100px; */
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color : white ;
+	height : auto;
+}
+
+#shop{
+	margin-top : auto;
+	/* margin-right : 10px; */
+	/* margin-left : -900; */
+	margin-bottom : -50px;
+	position : relative;
+}
+
+.containerr{
+	position : relative;
+	background-color: black;
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 7px;
+	width : 30%;
+	height : 95%;
+	float : right ;
+	height : auto;
+	/* margin-top : -700px; */
+	margin-top : -34%;
+	/* margin-right : 50px; */
+}
+
+#summary{
+	
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color : white ;
+}
+
+#btnorder {
+  background-color: #fa6102 ;
+  color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.radiocontainer{
+	position:relative;
+	background-color: black;
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 7px;
+	/* margin-top : 10px; */
+	/* margin-left : -700px; */
+	width:30%;
+	float:left;
+	margin-left:20px;
+	
+}
+
+
+
+
+#delivery{
+	/* display : inline-block; */
+	color : white;
+	/* float : left; */
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+#btnshop {
+  background-color: #fa6102;
+  color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+#btnclose {
+  background-color:#fa6102 ;
+  color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.btn:hover {
+  background-color: cornflowerblue;
+}
+
+
+.couponbtn {
+  background-color: #fa6102;
+  color: white;
+  padding: 13px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right : 1%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  /* max-width: 1000px; */
+  width : 95%;
+  padding: 10px;
+  background-color: black;
+  font-color : white;
+ 
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  
+  padding: 7px;
+  margin: 5px 0 22px 0;
+  border: 2px solid white;
+  background: #f1f1f1; 
+  border-radius : 2px;
+  
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit */
+.form-container .btn {
+  background-color:  #fa6102 ;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a  background color to the cancel button */
+.form-container .cancel {
+  background-color:  #fa6102;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+a{
+	color : white;
+	text-decoration: none;
+}

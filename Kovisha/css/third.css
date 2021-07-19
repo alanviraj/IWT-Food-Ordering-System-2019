@@ -1,0 +1,29 @@
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.container{
+	margin-left: 4%;
+	height: 1000px;
+	overflow: visible;
+	width: 90%;
+	background-color: #e6e6e6;
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+}
+
+.left{
+	
+	float : left;
+	margin-left : 0;
+	width : 49%;
+}
+
+.right{
+	float: right;
+	margin-right : 0;
+	width : 49%;
+}

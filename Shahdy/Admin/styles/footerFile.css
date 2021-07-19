@@ -1,0 +1,149 @@
+footer{
+    position:static;
+    margin-top:54%; 
+}
+
+.pageFooter{
+	margin-top:auto;
+    width: 100%;
+    height: auto;   
+    display: block;
+    background-color: black;
+    position: static;
+}
+
+.firstQuarter{
+    width:24%;
+    height:
+    float:left;
+    display: inline-block;
+    color:white;
+        
+}
+
+.firstQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 100%;
+    padding-top: 0;
+}
+
+.firstQuarter address{
+    padding-left: 20%;
+    font-size: 90%;
+    text-align: justify-all;
+}
+
+.firstQuarter ul{
+    list-style-type: none;
+    padding-top: 5%;
+    padding-left: 25%;
+}
+
+.secondQuarter{
+    margin-top: 0;
+    width:24%;
+    height:auto;
+    float:right;
+    display: inline-block;
+    color:white;
+    
+}
+
+.secondQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 120%;
+} 
+
+.secondQuarter ul {
+    list-style-type: none;
+    padding-left: 25%;
+}
+
+.secondQuarter ul li {
+    font-size: 100%;
+    font-weight: bold;
+	font-style : Helivetica;
+}
+
+
+.thirdQuarter{
+    height: auto;
+    width:24%;
+    float:right;
+    display: inline-block;
+    color:white;
+    
+}
+
+.thirdQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 120%;
+}
+
+.thirdQuarter p{
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 15%;
+    
+}
+
+.fourthQuarter{
+    height:auto;
+    width:24%;
+    float:right;
+    display: inline-block;
+    color:white;
+}
+
+.fourthQuarter form{
+    width:100%;
+    height: auto
+}
+
+.fourthQuarter h6{
+    text-align: center;
+    margin-left: 2%;
+    font-size: 100%;
+} 
+
+.fourthQuarter input[type=text], select {
+    width: 80%;
+    margin-left: 15%;
+    padding: 6px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.footerSubmit{
+    margin-left: 23%;
+    margin-top: 5%;
+    border-radius: 3px;
+	padding: 5px;
+	color: black;
+	border: none;
+	background-color: white;
+	text-align: center;
+	width:30%;
+    height: 5%;
+	font-size:105%;
+    font-weight: bold;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.footerSubmit:hover{
+    background-color: #fa6102;
+}
+
+.footerSubmit i{
+    width:20%;
+    height: auto;
+}
